@@ -78,7 +78,7 @@ export class Product {
   }
 }
 
-const productsUrl = "https://amazon-clone-backend-six.vercel.app/api/products";
+const productsUrl = "https://amazon-clone-backend-8pbj.onrender.com/api/products";
 
 export function useProducts() {
   const [products, setProducts] = useState<Product[]>([]);
